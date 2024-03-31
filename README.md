@@ -3,26 +3,26 @@ Ce référentiel contient l'implémentation de différents services de communica
 ## Services a implementer 
 ### Java RMI :Gestion d'une liste de tâches
 1.Ajouter une nouvelle tâche à la liste
-  _Méthode : addTask(task: Task)
-  _Description : Cette méthode permet d'ajouter une nouvelle tâche à la liste existante.
+  - Méthode : addTask(task: Task)
+  - Description : Cette méthode permet d'ajouter une nouvelle tâche à la liste existante.
 2.Supprimer une tâche existante de la liste
-  _Méthode : removeTask(taskId: int)
-  _Description : Cette méthode permet de supprimer une tâche existante de la liste en fonction de son identifiant.
+  - Méthode : removeTask(taskId: int)
+  - Description : Cette méthode permet de supprimer une tâche existante de la liste en fonction de son identifiant.
 3.Récupérer la liste complète des tâches
-  _Méthode : getTaskList()
-  _Description : Cette méthode renvoie la liste complète des tâches actuellement enregistrées.
+  - Méthode : getTaskList()
+  - Description : Cette méthode renvoie la liste complète des tâches actuellement enregistrées.
 ### gRPC : Service de messagerie
 1.Envoi de messages texte à un destinataire spécifié
-  _Méthode : sendMessage(message: Message)
-  _Description : Cette méthode permet d'envoyer un message texte à un destinataire spécifié.
+  - Méthode : sendMessage(message: Message)
+  - Description : Cette méthode permet d'envoyer un message texte à un destinataire spécifié.
 2.Récupération des messages reçus pour un utilisateur donné
-  _Méthode : getMessagesForUser(userId: int)
-  _Description : Cette méthode renvoie les messages reçus pour un utilisateur donné.
+  - Méthode : getMessagesForUser(userId: int)
+  - Description : Cette méthode renvoie les messages reçus pour un utilisateur donné.
 ### Sockets : Service de chat
 1. Envoi de messages texte à un salon de discussion commun
-  _Description : Ce service permet aux utilisateurs d'envoyer des messages texte à un salon de discussion commun.
+   - Description : Ce service permet aux utilisateurs d'envoyer des messages texte à un salon de discussion commun.
 2. Récupération des messages envoyés par d'autres utilisateurs
-  _Description : Ce service permet aux utilisateurs de récupérer les messages envoyés par d'autres utilisateurs dans le même salon de discussion.
+   - Description : Ce service permet aux utilisateurs de récupérer les messages envoyés par d'autres utilisateurs dans le même salon de discussion.
 3. utilisation de java swing pour une meilleur experience pour l utilisateur 
 ## Deploiemnt et Test
 ### Java RMI
