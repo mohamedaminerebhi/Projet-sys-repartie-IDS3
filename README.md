@@ -26,20 +26,20 @@ Ce référentiel contient l'implémentation de différents services de communica
 3. utilisation de java swing pour une meilleur experience pour l utilisateur 
 ## Deploiemnt et Test
 ### Java RMI
-1. Cloner ce référentiel depuis GitHub : git clone <URL_DU_REPOSITORY>
+1. Cloner ce référentiel depuis GitHub : git clone https://github.com/mohamedaminerebhi/Projet-sys-repartie-IDS3/tree/main/TaskManagement/src
 2. Accéder au répertoire Java RMI : cd java-rmi
 3. Compiler le code : javac *.java
 4. Démarrer le registre RMI : start rmiregistry
 5. Exécuter le serveur : java TaskServer
 6. Exécuter le client : java TaskClient
 ### gRPC
-1. Cloner ce référentiel depuis GitHub : git clone <URL_DU_REPOSITORY>
+1. Cloner ce référentiel depuis GitHub : git clone https://github.com/mohamedaminerebhi/Projet-sys-repartie-IDS3/tree/main/GRPC-Messagerie/src/main/java
 2. Accéder au répertoire gRPC : cd grpc
 3. Installer les dépendances : npm install
 4. Démarrer le serveur : java MessagingService.java
 5. Exécuter le client : java  MessagingClient.java
 ### Sockets
-1. Cloner ce référentiel depuis GitHub : git clone <URL_DU_REPOSITORY>
+1. Cloner ce référentiel depuis GitHub : git clone https://github.com/mohamedaminerebhi/Projet-sys-repartie-IDS3/tree/main/ChatRoom/src
 2. Accéder au répertoire Sockets : cd sockets
 3. Compiler le code : javac *.java
 4. Démarrer le serveur : java Server
