@@ -13,10 +13,10 @@ Ce référentiel contient l'implémentation de différents services de communica
   - Description : Cette méthode renvoie la liste complète des tâches actuellement enregistrées.
 ### gRPC : Service de messagerie
 1.Envoi de messages texte à un destinataire spécifié
-  - Méthode : sendMessage(message: Message)
+  - Méthode : sendMessage(message: SendMessageRequest)
   - Description : Cette méthode permet d'envoyer un message texte à un destinataire spécifié.
 2.Récupération des messages reçus pour un utilisateur donné
-  - Méthode : getMessagesForUser(userId: int)
+  - Méthode : getMessages(message: GetMessageRequest )
   - Description : Cette méthode renvoie les messages reçus pour un utilisateur donné.
 ### Sockets : Service de chat
 1. Envoi de messages texte à un salon de discussion commun
