@@ -2,13 +2,13 @@
 Ce référentiel contient l'implémentation de différents services de communication utilisant Java RMI, gRPC et les sockets.
 ## Services a implementer 
 ### Java RMI :Gestion d'une liste de tâches
-1.Ajouter une nouvelle tâche à la liste
+1. Ajouter une nouvelle tâche à la liste
   - Méthode : addTask(task: Task)
   - Description : Cette méthode permet d'ajouter une nouvelle tâche à la liste existante.
-2.Supprimer une tâche existante de la liste
+2. Supprimer une tâche existante de la liste
   - Méthode : removeTask(taskId: int)
   - Description : Cette méthode permet de supprimer une tâche existante de la liste en fonction de son identifiant.
-3.Récupérer la liste complète des tâches
+3. Récupérer la liste complète des tâches
   - Méthode : getTaskList()
   - Description : Cette méthode renvoie la liste complète des tâches actuellement enregistrées.
 ### gRPC : Service de messagerie
